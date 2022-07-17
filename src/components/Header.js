@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header ({isDarkMode,onDarkModeClick}){
+function Header ({onDarkModeClick,isDarkMode}){
     return (
        // <div className={"App " + (isDarkMode ? "dark" : "light")}>
           <header>
@@ -11,3 +11,5 @@ function Header ({isDarkMode,onDarkModeClick}){
           </header>
         //  </div>
 );} 
+
+export default Header;

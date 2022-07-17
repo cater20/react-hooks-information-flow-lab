@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ShoppingList from "./ShoppingList";
 import itemData from "../data/items";
 import Header from  "./Header"
+import filter from "./filter"
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
